@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objecttypes>
+ <objecttype name="Morte" color="#ffff00">
+  <property name="unity:layer" type="string" default="Morte"/>
+ </objecttype>
+ <objecttype name="Prefab" color="#a0a0a4">
+  <property name="PrefabSwap" type="string" default="true"/>
+ </objecttype>
+</objecttypes>

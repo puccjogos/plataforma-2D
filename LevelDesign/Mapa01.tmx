@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="15" height="10" tilewidth="64" tileheight="64" nextobjectid="30">
+ <tileset firstgid="1" source="tileset.tsx"/>
+ <layer name="Chao" width="15" height="10">
+  <properties>
+   <property name="unity:layer" value="Solido"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,1,2,3,0,0,0,0,
+0,0,0,0,0,0,0,0,11,12,13,0,0,0,0,
+0,0,1,2,3,0,0,0,0,0,0,0,0,0,0,
+0,0,6,7,8,0,0,0,0,0,0,0,0,1,2,
+0,0,6,7,5,2,2,2,3,0,0,0,1,4,7,
+0,0,11,12,12,12,9,7,8,0,0,0,6,7,7,
+0,0,0,0,0,0,6,7,8,0,0,0,6,7,7,
+2,2,2,2,2,2,4,7,5,2,2,2,4,7,7,
+7,7,7,7,7,7,7,7,7,7,7,7,7,7,7
+</data>
+ </layer>
+ <objectgroup name="Objetos" offsetx="0" offsety="-32">
+  <properties>
+   <property name="unity:layer" value="Objetos"/>
+  </properties>
+  <object id="4" name="Porta" type="Prefab" gid="17" x="896" y="320" width="64" height="64"/>
+  <object id="5" name="Chave" type="Prefab" gid="18" x="192" y="256" width="64" height="64"/>
+  <object id="7" name="Bloco" type="Prefab" gid="21" x="0" y="512" width="64" height="64"/>
+  <object id="8" name="Cristal" type="Prefab" gid="23" x="320" y="512" width="64" height="64"/>
+  <object id="9" name="Bloco" type="Prefab" gid="21" x="640" y="448" width="64" height="64"/>
+  <object id="11" name="Bloco" type="Prefab" gid="21" x="64" y="384" width="64" height="64"/>
+  <object id="10" name="Espinho" type="Prefab" gid="14" x="640" y="576" width="64" height="64">
+   <properties>
+    <property name="unity:layer" value="Morte"/>
+   </properties>
+  </object>
+  <object id="13" name="Fronteira" x="-65" y="-288" width="64" height="929"/>
+  <object id="14" name="Fronteira" x="0" y="-320" width="960" height="64"/>
+  <object id="15" name="Fronteira" x="960" y="-288" width="64" height="928"/>
+  <object id="28" name="Caminho" x="64" y="64">
+   <properties>
+    <property name="AddComp" value="Caminho"/>
+    <property name="unity:isTrigger" value="true"/>
+   </properties>
+   <polyline points="0,0 704,0 704,192 320,192 320,64 0,64 0,0"/>
+  </object>
+  <object id="29" name="Placa" type="Prefab" gid="15" x="384" y="384" width="64" height="64">
+   <properties>
+    <property name="msg" value="Vamos jogar!"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

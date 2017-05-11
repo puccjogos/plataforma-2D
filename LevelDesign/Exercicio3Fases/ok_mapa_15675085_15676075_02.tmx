@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="15" height="10" tilewidth="64" tileheight="64" nextobjectid="42">
+ <tileset firstgid="1" source="TilesetSimples/tileset.tsx"/>
+ <layer name="Chao" width="15" height="10">
+  <properties>
+   <property name="unity:layer" value="Solido"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,1,2,2,2,3,0,0,0,0,0,
+2,2,2,2,2,4,7,7,7,8,0,1,2,2,2,
+7,7,7,7,7,7,7,10,12,13,0,6,7,7,7,
+12,12,12,12,12,12,12,13,0,0,0,11,9,7,7,
+0,0,0,0,0,0,0,0,0,0,0,0,6,7,7,
+2,2,2,2,2,2,2,2,2,2,2,2,4,7,7,
+7,7,7,7,7,7,7,7,7,7,7,7,7,7,7
+</data>
+ </layer>
+ <objectgroup name="Objetos" offsetx="0" offsety="-32">
+  <properties>
+   <property name="unity:layer" value="Objetos"/>
+  </properties>
+  <object id="4" name="Porta" type="Prefab" gid="17" x="-4" y="572" width="64" height="64"/>
+  <object id="5" name="Chave" type="Prefab" gid="18" x="20" y="68" width="64" height="64">
+   <properties>
+    <property name="prefabswap" value="Chave"/>
+   </properties>
+  </object>
+  <object id="7" name="Bloco" type="Prefab" gid="21" x="56" y="204" width="64" height="64"/>
+  <object id="8" name="Cristal" type="Prefab" gid="23" x="68" y="544" width="64" height="64">
+   <properties>
+    <property name="unity:isTrigger" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="9" name="Bloco" type="Prefab" gid="21" x="312" y="180" width="64" height="64"/>
+  <object id="11" name="Bloco" type="Prefab" gid="21" x="168" y="160" width="64" height="64"/>
+  <object id="10" name="Espinho" type="Prefab" gid="14" x="745.629" y="328.251" width="64" height="64" rotation="1.41388">
+   <properties>
+    <property name="unity:isTrigger" type="bool" value="true"/>
+    <property name="unity:layer" value="Morte"/>
+   </properties>
+  </object>
+  <object id="13" name="Fronteira" x="-65" y="-288" width="64" height="929"/>
+  <object id="14" name="Fronteira" x="0" y="-320" width="960" height="64"/>
+  <object id="15" name="Fronteira" x="960" y="-288" width="64" height="928"/>
+  <object id="28" name="Caminho" x="240" y="-468">
+   <properties>
+    <property name="AddComp" value="Caminho"/>
+    <property name="unity:isTrigger" value="true"/>
+   </properties>
+   <polyline points="0,0 704,0 704,192 320,192 320,64 0,64 0,0"/>
+  </object>
+  <object id="29" name="Placa" type="Prefab" gid="15" x="440" y="-168" width="64" height="64">
+   <properties>
+    <property name="msg" value="Vamos jogar!"/>
+   </properties>
+  </object>
+  <object id="30" name="Jogador" type="Prefab" gid="24" x="880" y="324" width="64" height="64">
+   <properties>
+    <property name="unity:prefabswap" type="file" value="Jogador"/>
+   </properties>
+  </object>
+  <object id="31" name="Bloco" type="Prefab" gid="21" x="452" y="208" width="64" height="64"/>
+  <object id="32" name="Espinho" type="Prefab" gid="14" x="730.051" y="585.931" width="64" height="64" rotation="3.11475">
+   <properties>
+    <property name="unity:isTrigger" type="bool" value="true"/>
+    <property name="unity:layer" value="Morte"/>
+   </properties>
+  </object>
+  <object id="33" name="Espinho" type="Prefab" gid="14" x="545.253" y="578.518" width="64" height="64" rotation="2.10912">
+   <properties>
+    <property name="unity:isTrigger" type="bool" value="true"/>
+    <property name="unity:layer" value="Morte"/>
+   </properties>
+  </object>
+  <object id="34" name="Espinho" type="Prefab" gid="14" x="387.603" y="580.911" width="64" height="64" rotation="0.248991">
+   <properties>
+    <property name="unity:isTrigger" type="bool" value="true"/>
+    <property name="unity:layer" value="Morte"/>
+   </properties>
+  </object>
+  <object id="35" name="Espinho" type="Prefab" gid="14" x="268.937" y="331.578" width="64" height="64" rotation="0.248991">
+   <properties>
+    <property name="unity:isTrigger" type="bool" value="true"/>
+    <property name="unity:layer" value="Morte"/>
+   </properties>
+  </object>
+  <object id="38" name="Espinho" type="Prefab" gid="14" x="196.937" y="583.578" width="64" height="64" rotation="0.248991">
+   <properties>
+    <property name="unity:isTrigger" type="bool" value="true"/>
+    <property name="unity:layer" value="Morte"/>
+   </properties>
+  </object>
+  <object id="39" name="Espinho" type="Prefab" gid="14" x="16.9367" y="319.578" width="64" height="64" rotation="0.248991">
+   <properties>
+    <property name="unity:isTrigger" type="bool" value="true"/>
+    <property name="unity:layer" value="Morte"/>
+   </properties>
+  </object>
+  <object id="40" name="Bloco" type="Prefab" gid="21" x="668" y="480" width="64" height="64"/>
+  <object id="41" name="Bloco" type="Prefab" gid="21" x="608" y="364" width="64" height="64"/>
+ </objectgroup>
+</map>

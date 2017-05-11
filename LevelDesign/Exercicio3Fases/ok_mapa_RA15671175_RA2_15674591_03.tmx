@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="15" height="10" tilewidth="64" tileheight="64" nextobjectid="39">
+ <tileset firstgid="1" source="TilesetSimples/tileset.tsx"/>
+ <layer name="Chao" width="15" height="10">
+  <properties>
+   <property name="unity:layer" value="Solido"/>
+  </properties>
+  <data encoding="csv">
+7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,
+7,0,0,0,0,0,0,0,0,0,0,0,0,0,7,
+7,0,0,0,0,0,0,0,0,0,0,0,0,0,7,
+7,7,0,0,0,0,0,0,0,0,0,0,7,7,7,
+7,0,0,0,0,0,0,0,0,0,0,0,0,0,7,
+7,0,0,0,0,0,0,0,0,0,0,0,0,0,7,
+7,7,7,7,8,0,0,0,0,1,2,4,7,7,7,
+12,12,12,12,13,0,1,2,2,4,7,7,7,7,7,
+2,2,2,2,2,2,4,7,7,7,7,7,7,7,7,
+7,7,7,7,7,7,7,7,7,7,7,7,7,7,7
+</data>
+ </layer>
+ <objectgroup name="Objetos" offsetx="0" offsety="-32">
+  <properties>
+   <property name="unity:layer" value="Objetos"/>
+  </properties>
+  <object id="4" name="Porta" type="Prefab" gid="17" x="833" y="228" width="64" height="64"/>
+  <object id="5" name="Chave" type="Prefab" gid="18" x="62" y="227" width="64" height="64"/>
+  <object id="7" name="Bloco" type="Prefab" gid="21" x="474" y="274" width="64" height="64"/>
+  <object id="8" name="Cristal" type="Prefab" gid="23" x="827" y="416" width="64" height="64"/>
+  <object id="9" name="Bloco" type="Prefab" gid="21" x="349" y="277" width="64" height="64"/>
+  <object id="11" name="Bloco" type="Prefab" gid="21" x="153" y="386" width="64" height="64"/>
+  <object id="13" name="Fronteira" x="-65" y="-288" width="64" height="929"/>
+  <object id="14" name="Fronteira" x="0" y="-320" width="960" height="64"/>
+  <object id="15" name="Fronteira" x="960" y="-288" width="64" height="928"/>
+  <object id="30" name="Bloco" type="Prefab" gid="21" x="255" y="319" width="64" height="64"/>
+  <object id="32" name="Bloco" type="Prefab" gid="21" x="487" y="460" width="64" height="64"/>
+  <object id="33" name="Bloco" type="Prefab" gid="21" x="308" y="459" width="64" height="64"/>
+  <object id="34" name="Bloco" type="Prefab" gid="21" x="597" y="271" width="64" height="64"/>
+  <object id="35" name="Espinho" type="Prefab" gid="14" x="414" y="310" width="64" height="64">
+   <properties>
+    <property name="unity:layer" value="Morte"/>
+   </properties>
+  </object>
+  <object id="36" name="Espinho" type="Prefab" gid="14" x="537" y="307" width="64" height="64">
+   <properties>
+    <property name="unity:layer" value="Morte"/>
+   </properties>
+  </object>
+  <object id="37" name="Espinho" type="Prefab" gid="14" x="668" y="307" width="64" height="64">
+   <properties>
+    <property name="unity:layer" value="Morte"/>
+   </properties>
+  </object>
+  <object id="38" name="Bloco" type="Prefab" gid="21" x="718" y="274" width="64" height="64"/>
+ </objectgroup>
+</map>

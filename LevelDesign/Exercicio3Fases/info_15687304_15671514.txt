@@ -1,0 +1,8 @@
+Integrantes:
+Vinícius Pimentel - 15687304
+Heitor Mattosinho - 15671514
+
+Objetivos principais:
+Fase 1: Ensinar a mecânica do cristal e dos blocos.
+Fase 2: Explorar como o posicionamento do cristal pode proporcionar desafios e alterar a maneira como o jogador pode passar por uma mesma parte da fase.
+Fase 3: Explorar outras maneiras em que os cristais podem ser utilizados. Nesse caso, o jogador deve desviar deles para manter a porta desobstruída. 

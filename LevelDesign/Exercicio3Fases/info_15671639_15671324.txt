@@ -1,0 +1,5 @@
+Gabriel Balarin RA 15671639
+Pablo Victor RA 15671324
+
+Usamos a mecânica do cristal e blocos de forma que se o jogador pegar o cristal antes da hora certa
+ele não consegue completar a fase

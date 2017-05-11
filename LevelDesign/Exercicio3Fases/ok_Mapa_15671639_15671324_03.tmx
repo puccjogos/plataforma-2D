@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="15" height="10" tilewidth="64" tileheight="64" nextobjectid="57">
+ <tileset firstgid="1" source="TilesetSimples/tileset.tsx"/>
+ <layer name="Chao" width="15" height="10" offsetx="0" offsety="-2">
+  <properties>
+   <property name="unity:layer" value="Solido"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+2,3,1,2,3,1,2,3,1,2,3,1,3,0,0,
+7,8,6,7,8,6,7,8,6,7,8,11,13,1,2,
+12,13,11,12,13,11,12,13,11,12,13,0,1,4,10,
+0,0,0,1,3,1,2,3,1,2,3,1,4,10,13,
+0,1,3,11,13,6,7,8,6,7,8,6,7,8,0,
+0,11,13,0,0,11,12,13,11,12,13,11,12,13,0,
+1,3,0,0,0,1,2,3,1,2,3,0,0,1,3,
+11,13,0,0,0,6,7,8,6,7,5,2,3,11,13,
+0,0,0,0,0,11,12,13,11,12,9,7,5,3,1
+</data>
+ </layer>
+ <objectgroup name="Objetos" offsetx="-2" offsety="-3">
+  <properties>
+   <property name="unity:layer" value="Objetos"/>
+  </properties>
+  <object id="4" name="Porta" type="Prefab" gid="17" x="6.27273" y="96.5758" width="64" height="64">
+   <properties>
+    <property name="PrefabSwap" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="30" name="Placa" type="Prefab" gid="15" x="386.576" y="489.485" width="64" height="64">
+   <properties>
+    <property name="PrefabSwap" type="bool" value="true"/>
+    <property name="msg" value="As vezes o Cristal pode te prejudicar"/>
+   </properties>
+  </object>
+  <object id="31" name="Jogador" type="Prefab" gid="20" x="799.97" y="605.848" width="64" height="64">
+   <properties>
+    <property name="PrefabSwap" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="32" name="Cristal" type="Prefab" gid="23" x="907.333" y="166" width="64" height="64">
+   <properties>
+    <property name="PrefabSwap" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="36" name="Bloco" type="Prefab" gid="21" x="52.0303" y="79.5909" width="64" height="64">
+   <properties>
+    <property name="PrefabSwap" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="38" name="Bloco" type="Prefab" gid="21" x="-34.9394" y="77.303" width="64" height="64">
+   <properties>
+    <property name="PrefabSwap" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="39" name="Bloco" type="Prefab" gid="21" x="17.5758" y="46.4242" width="64" height="64">
+   <properties>
+    <property name="PrefabSwap" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="40" name="Chave" type="Prefab" gid="18" x="867.121" y="489.939" width="64" height="64">
+   <properties>
+    <property name="PrefabSwap" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="41" name="ZonadeMorte" x="-15" y="629" width="995" height="130">
+   <properties>
+    <property name="unity:isTrigger" value="true"/>
+    <property name="unity:layer" value="Morte"/>
+   </properties>
+  </object>
+  <object id="43" name="Bloco" type="Prefab" gid="21" x="51.1818" y="110.939" width="64" height="64">
+   <properties>
+    <property name="PrefabSwap" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="44" name="Bloco" type="Prefab" gid="21" x="52.1212" y="48.0909" width="64" height="64">
+   <properties>
+    <property name="PrefabSwap" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="45" name="Bloco" type="Prefab" gid="21" x="-14.8788" y="46.3636" width="64" height="64">
+   <properties>
+    <property name="PrefabSwap" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="55" name="Caminho" x="194.697" y="400.303">
+   <properties>
+    <property name="AddComp" value="Caminho"/>
+    <property name="unity:isTrigger" type="bool" value="true"/>
+   </properties>
+   <polyline points="149,90 -89,88 150,89"/>
+  </object>
+  <object id="56" name="Bloco" type="Prefab" gid="21" x="-36" y="109" width="64" height="64">
+   <properties>
+    <property name="PrefabSwap" type="bool" value="true"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

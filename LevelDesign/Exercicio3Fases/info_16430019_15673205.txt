@@ -1,0 +1,20 @@
+Atividade de Balanceamento de Jogos
+
+Objetivo: " Pegar a chave e sair da fase sem morrer "
+
+FASE_01: O objetivo desta fase é trabalhar o pulo do " Jogador e Personagem " de um modo simples no qual ele consiga chegar até a chave para poder passar para o próximo lével.
+Nessa primeira fase, vemos que a distância entre uma plataforma e outra é pequena, então, o jogador não precisa ter um pulo " com precisão " para alcançar o outro lado.
+
+FASE_02: O objetivo é trabalhar o pulo do personagem de uma forma mais concentrada, e trabalhar a interação do jogador com a fase, para que ele pense em uma maneira de: " O que precisa ser feito, como pegar a chave, como chegar até a porta ".
+Nessa segunda fase, vemos que as distâncias entre uma plataforma e outra são diferentes, pois existe pulos mais longos e pulos mais curtos, o jogador também precisa tomar cuidado na hora de pegar a chave para que ele não caia no espinho.
+
+FASE_03: O objetivo é trabalhar a concentração do jogador, precisão dos seus pulos.
+Vemos que na fase, as distâncias de um pulo para outro são randômicas !, o jogador precisa ter o máximo de cuidado posspível para não escorregar e cair no espinho. 
+Nessa fase o cuidado, precisão e atenção são os principais requísitos que o jogador precisa ter.
+
+--------------------
+
+Link Diagrama Molecule design e Anotações
+
+https://drive.google.com/open?id=0By0_j_ByffmTakk5aHFJU1NUVmM
+

@@ -1,0 +1,6 @@
+Leonardo Yuji Saito
+
+Objetivo principal de cada fase:
+-Para a primeira fase, dei preferencia a mecanica basica para introduzir o jogador com a relação jogabilidade.
+-Para a segundo fase, procurei introduzir o basico de movimentação com mecanica de pulo assim como pequeno raciocinio quanto a escolha de caminho;
+-para a terceira fase, procurei envolver mais da mecanica de pulo e desenvolver os passos para o fim, sendo necessario certo nivel de habilidade para passar da fase.

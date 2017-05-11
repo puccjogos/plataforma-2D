@@ -1,0 +1,13 @@
+Raiate Gonçalves Franca			15673346 
+Victor Augusto Silva Trindade		15620818 
+ 
+Experiência desejada 
+ 
+1ª Fase
+	O objetivo da primeira fase é criar uma sensação de suspense e expectativa, e mostrar que exitem coisas perigosas na fase, sem criar grandes desafios. É apenas uma área de reconhecimento, para tentar passar a sensasão do que o jogador pode esperar. Para dar um suspense criamos a fase com corredores apertados e camaras um pouco maiores, remetendo a cavernas/catacumbas, assim esperamos que o jogador sinta que está adentrando um lugar misterioso, e crie certa expectativa de saber e descobrir mais conforme for progredindo na fase. O jogador foi colocado como um objeto para ficar fácil a visualização de onde ele começara.
+
+2ª Fase
+	Na segunda fase algumas o estilo de cenário se torna mais perigoso visualmente. Visualmente a fase tem mais saídas e mais caminhos, mas é para dar um pouco de ideia de que a fase pode ser maior e gerar + expectativas. É adicionada a mecânica de ativação dos blocos. Logo o jogador tem 2 Objetivos sequenciais na fase, pegar o Cristal e a Chave. Ambos são desafios com foco em acertar o pulos.
+
+3ª Fase
+	A terceira fase tem o objetivo de aumentar a intensidade visualmente mas mostrar que exite uma saída, gerando ansiedade pelo fechamento. A ideia de colocar uma placa que o jogar não vai ler é justamente para que ele pense que poderá voltar aqui em outro momento. Essa poderia ser condierada uma fase de transição, pois parte da fase ja é a saída da catacumba para uma área superior. Em questão de desafios essa fase está bem semelhante a anterior, mas que pode ser mais dificil devido as expectativas visuais.

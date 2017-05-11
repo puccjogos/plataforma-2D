@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="15" height="10" tilewidth="64" tileheight="64" nextobjectid="56">
+ <tileset firstgid="1" source="TilesetSimples/tileset.tsx"/>
+ <layer name="Chao" width="15" height="10" offsetx="0" offsety="-2">
+  <properties>
+   <property name="unity:layer" value="Solido"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+2,2,2,2,3,0,0,0,0,0,0,0,0,1,2,
+7,7,7,7,8,0,0,0,0,0,0,0,0,6,7,
+12,12,12,12,13,0,0,0,0,0,0,0,0,11,12,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1,2,3,0,0,0,1,2,
+0,0,0,0,0,0,0,6,7,8,0,0,0,6,7,
+0,0,0,0,0,0,0,11,12,13,0,0,0,11,12,
+3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+5,2,3,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup name="Objetos" offsetx="-2" offsety="-3">
+  <properties>
+   <property name="unity:layer" value="Objetos"/>
+  </properties>
+  <object id="4" name="Porta" type="Prefab" gid="17" x="895" y="97" width="64" height="64">
+   <properties>
+    <property name="PrefabSwap" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="30" name="Placa" type="Prefab" gid="15" x="513" y="357" width="64" height="64">
+   <properties>
+    <property name="PrefabSwap" type="bool" value="true"/>
+    <property name="msg" value="Cristal ativa a escada, mas cuidado para não se precipitar"/>
+   </properties>
+  </object>
+  <object id="31" name="Jogador" type="Prefab" gid="20" x="45" y="604" width="64" height="64">
+   <properties>
+    <property name="PrefabSwap" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="32" name="Cristal" type="Prefab" gid="23" x="7" y="100" width="64" height="64">
+   <properties>
+    <property name="PrefabSwap" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="35" name="Bloco" type="Prefab" gid="21" x="587" y="367" width="64" height="64">
+   <properties>
+    <property name="PrefabSwap" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="36" name="Bloco" type="Prefab" gid="21" x="649" y="304" width="64" height="64">
+   <properties>
+    <property name="PrefabSwap" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="37" name="Bloco" type="Prefab" gid="21" x="683" y="272" width="64" height="64">
+   <properties>
+    <property name="PrefabSwap" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="38" name="Bloco" type="Prefab" gid="21" x="777" y="175" width="64" height="64">
+   <properties>
+    <property name="PrefabSwap" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="39" name="Bloco" type="Prefab" gid="21" x="746" y="207" width="64" height="64">
+   <properties>
+    <property name="PrefabSwap" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="40" name="Chave" type="Prefab" gid="18" x="893" y="358" width="64" height="64">
+   <properties>
+    <property name="PrefabSwap" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="41" name="ZonadeMorte" x="-15" y="629" width="995" height="130">
+   <properties>
+    <property name="unity:isTrigger" value="true"/>
+    <property name="unity:layer" value="Morte"/>
+   </properties>
+  </object>
+  <object id="43" name="Bloco" type="Prefab" gid="21" x="619" y="336" width="64" height="64">
+   <properties>
+    <property name="PrefabSwap" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="44" name="Bloco" type="Prefab" gid="21" x="714" y="241" width="64" height="64">
+   <properties>
+    <property name="PrefabSwap" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="45" name="Bloco" type="Prefab" gid="21" x="812" y="144" width="64" height="64">
+   <properties>
+    <property name="PrefabSwap" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="53" name="Caminho" x="160" y="604">
+   <properties>
+    <property name="AddComp" value="Caminho"/>
+    <property name="unity:isTrigger" type="bool" value="true"/>
+   </properties>
+   <polyline points="0,0 299,-237 -2,0"/>
+  </object>
+  <object id="54" name="Caminho" x="325" y="287">
+   <properties>
+    <property name="AddComp" value="Caminho"/>
+    <property name="unity:isTrigger" type="bool" value="true"/>
+   </properties>
+   <polyline points="145,33 -26,-193 144,35"/>
+  </object>
+  <object id="55" name="Caminho" x="707" y="276">
+   <properties>
+    <property name="AddComp" value="Caminho"/>
+    <property name="unity:isTrigger" type="bool" value="true"/>
+   </properties>
+   <polyline points="149,90 -89,88 150,89"/>
+  </object>
+ </objectgroup>
+</map>

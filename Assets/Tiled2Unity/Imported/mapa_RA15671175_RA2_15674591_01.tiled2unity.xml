@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Tiled2Unity generated xml data-->
+<!--Do not modify by hand-->
+<!--Last exported: 11/05/2017 11:58:36-->
+<Tiled2Unity version="1.0.10.1">
+  <AssignMaterial mesh="mesh_0001" material="tileset" />
+  <AssignMaterial mesh="mesh_tile_0018" material="tileset" />
+  <AssignMaterial mesh="mesh_tile_0021" material="tileset" />
+  <AssignMaterial mesh="mesh_tile_0017" material="tileset" />
+  <AssignMaterial mesh="mesh_tile_0014" material="tileset" />
+  <AssignMaterial mesh="mesh_tile_0023" material="tileset" />
+  <Prefab name="mapa_RA15671175_RA2_15674591_01" orientation="Orthogonal" staggerAxis="Y" staggerIndex="Odd" hexSideLength="0" numLayers="1" numTilesWide="15" numTilesHigh="10" tileWidth="64" tileHeight="64" exportScale="0.015625" mapWidthInPixels="960" mapHeightInPixels="640" backgroundColor="#808080">
+    <GameObject name="Chao" x="0" y="0" z="0" layer="Solido">
+      <TileLayer opacity="1" offsetX="0" offsetY="0" />
+      <GameObject name="tileset" copy="mesh_0001" sortingLayerName="" sortingOrder="0" opacity="1" />
+      <GameObject name="Collision">
+        <PolygonCollider2D>
+          <Path>15,-2.5 11.5,-2.5 11.5,-4.5 15,-4.5</Path>
+          <Path>9.5,-7.5 7.5,-7.5 7.5,-8.5 5.5,-8.5 5.5,-7.5 3.5,-7.5 3.5,-8.5 1.5,-8.5 1.5,-7.5 0,-7.5 0,-10 15,-10 15,-7.5 11.5,-7.5 11.5,-8.5 9.5,-8.5</Path>
+        </PolygonCollider2D>
+      </GameObject>
+    </GameObject>
+    <GameObject name="Objetos" x="0" y="0.5" z="0" layer="Objetos">
+      <ObjectLayer offsetX="0" offsetY="-32" color="#ff808080" />
+      <GameObject name="Fronteira" x="0" y="5" rotation="0">
+        <RectangleObjectComponent tmx-object-id="14" tmx-object-name="Fronteira" tmx-object-type="" tmx-object-x="0" tmx-object-y="-320" tmx-object-width="960" tmx-object-height="64" tmx-object-rotation="0" />
+        <BoxCollider2D width="15" height="1" />
+      </GameObject>
+      <GameObject name="Fronteira" x="-1.015625" y="4.5" rotation="0">
+        <RectangleObjectComponent tmx-object-id="13" tmx-object-name="Fronteira" tmx-object-type="" tmx-object-x="-65" tmx-object-y="-288" tmx-object-width="64" tmx-object-height="929" tmx-object-rotation="0" />
+        <BoxCollider2D width="1" height="14.515625" />
+      </GameObject>
+      <GameObject name="Fronteira" x="15" y="4.5" rotation="0">
+        <RectangleObjectComponent tmx-object-id="15" tmx-object-name="Fronteira" tmx-object-type="" tmx-object-x="960" tmx-object-y="-288" tmx-object-width="64" tmx-object-height="928" tmx-object-rotation="0" />
+        <BoxCollider2D width="1" height="14.5" />
+      </GameObject>
+      <GameObject name="Chave" x="13.03125" y="-3" rotation="0" scaleX="1" scaleY="1">
+        <Property name="PrefabSwap" value="true" />
+        <TileObjectComponent tmx-object-id="36" tmx-object-name="Chave" tmx-object-type="Prefab" tmx-object-x="834" tmx-object-y="192" tmx-object-width="64" tmx-object-height="64" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1" height="1" />
+        <GameObject name="TileObject" x="0.5" y="0.5" scaleX="1" scaleY="1">
+          <PolygonCollider2D offsetX="-0.5" offsetY="0.5">
+            <Path>0,0 1,0 1,-1 0,-1</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0018" sortingLayerName="" sortingOrder="1" x="-0.5" y="0.5" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="Bloco" x="10.5625" y="-4.53125" rotation="0" scaleX="1" scaleY="1">
+        <Property name="PrefabSwap" value="true" />
+        <TileObjectComponent tmx-object-id="38" tmx-object-name="Bloco" tmx-object-type="Prefab" tmx-object-x="676" tmx-object-y="290" tmx-object-width="64" tmx-object-height="64" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1" height="1" />
+        <GameObject name="TileObject" x="0.5" y="0.5" scaleX="1" scaleY="1">
+          <PolygonCollider2D offsetX="-0.25" offsetY="0.25">
+            <Path>0,0 0.5,0 0.5,-0.5 0,-0.5</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0021" sortingLayerName="" sortingOrder="2" x="-0.5" y="0.5" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="Bloco" x="9" y="-5.6875" rotation="0" scaleX="1" scaleY="1">
+        <Property name="PrefabSwap" value="true" />
+        <TileObjectComponent tmx-object-id="35" tmx-object-name="Bloco" tmx-object-type="Prefab" tmx-object-x="576" tmx-object-y="364" tmx-object-width="64" tmx-object-height="64" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1" height="1" />
+        <GameObject name="TileObject" x="0.5" y="0.5" scaleX="1" scaleY="1">
+          <PolygonCollider2D offsetX="-0.25" offsetY="0.25">
+            <Path>0,0 0.5,0 0.5,-0.5 0,-0.5</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0021" sortingLayerName="" sortingOrder="3" x="-0.5" y="0.5" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="Bloco" x="7.40625" y="-6.90625" rotation="0" scaleX="1" scaleY="1">
+        <Property name="PrefabSwap" value="true" />
+        <TileObjectComponent tmx-object-id="34" tmx-object-name="Bloco" tmx-object-type="Prefab" tmx-object-x="474" tmx-object-y="442" tmx-object-width="64" tmx-object-height="64" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1" height="1" />
+        <GameObject name="TileObject" x="0.5" y="0.5" scaleX="1" scaleY="1">
+          <PolygonCollider2D offsetX="-0.25" offsetY="0.25">
+            <Path>0,0 0.5,0 0.5,-0.5 0,-0.5</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0021" sortingLayerName="" sortingOrder="4" x="-0.5" y="0.5" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="Porta" x="13.90625" y="-8.03125" rotation="0" scaleX="1" scaleY="1">
+        <Property name="PrefabSwap" value="true" />
+        <TileObjectComponent tmx-object-id="37" tmx-object-name="Porta" tmx-object-type="Prefab" tmx-object-x="890" tmx-object-y="514" tmx-object-width="64" tmx-object-height="64" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1" height="1" />
+        <GameObject name="TileObject" x="0.5" y="0.5" scaleX="1" scaleY="1">
+          <PolygonCollider2D offsetX="-0.5" offsetY="0.5">
+            <Path>0,0 1,0 1,-1 0,-1</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0017" sortingLayerName="" sortingOrder="5" x="-0.5" y="0.5" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="Espinho" x="5.40625" y="-9" rotation="0" layer="Morte" scaleX="1" scaleY="1">
+        <Property name="PrefabSwap" value="true" />
+        <TileObjectComponent tmx-object-id="32" tmx-object-name="Espinho" tmx-object-type="Prefab" tmx-object-x="346" tmx-object-y="576" tmx-object-width="64" tmx-object-height="64" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1" height="1" />
+        <GameObject name="TileObject" x="0.5" y="0.5" scaleX="1" scaleY="1">
+          <PolygonCollider2D offsetX="-0.5" offsetY="0">
+            <Path>0,0 1,0 1,-0.5 0,-0.5</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0014" sortingLayerName="" sortingOrder="6" x="-0.5" y="0.5" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="Espinho" x="11.046875" y="-9.015625" rotation="0" layer="Morte" scaleX="1" scaleY="1">
+        <Property name="PrefabSwap" value="true" />
+        <TileObjectComponent tmx-object-id="10" tmx-object-name="Espinho" tmx-object-type="Prefab" tmx-object-x="707" tmx-object-y="577" tmx-object-width="64" tmx-object-height="64" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1" height="1" />
+        <GameObject name="TileObject" x="0.5" y="0.5" scaleX="1" scaleY="1">
+          <PolygonCollider2D offsetX="-0.5" offsetY="0">
+            <Path>0,0 1,0 1,-0.5 0,-0.5</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0014" sortingLayerName="" sortingOrder="7" x="-0.5" y="0.5" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="Espinho" x="10.046875" y="-9.015625" rotation="0" layer="Morte" scaleX="1" scaleY="1">
+        <Property name="PrefabSwap" value="true" />
+        <TileObjectComponent tmx-object-id="30" tmx-object-name="Espinho" tmx-object-type="Prefab" tmx-object-x="643" tmx-object-y="577" tmx-object-width="64" tmx-object-height="64" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1" height="1" />
+        <GameObject name="TileObject" x="0.5" y="0.5" scaleX="1" scaleY="1">
+          <PolygonCollider2D offsetX="-0.5" offsetY="0">
+            <Path>0,0 1,0 1,-0.5 0,-0.5</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0014" sortingLayerName="" sortingOrder="8" x="-0.5" y="0.5" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="Espinho" x="9.046875" y="-9.03125" rotation="0" layer="Morte" scaleX="1" scaleY="1">
+        <Property name="PrefabSwap" value="true" />
+        <TileObjectComponent tmx-object-id="31" tmx-object-name="Espinho" tmx-object-type="Prefab" tmx-object-x="579" tmx-object-y="578" tmx-object-width="64" tmx-object-height="64" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1" height="1" />
+        <GameObject name="TileObject" x="0.5" y="0.5" scaleX="1" scaleY="1">
+          <PolygonCollider2D offsetX="-0.5" offsetY="0">
+            <Path>0,0 1,0 1,-0.5 0,-0.5</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0014" sortingLayerName="" sortingOrder="9" x="-0.5" y="0.5" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="Cristal" x="6.40625" y="-9.03125" rotation="0" scaleX="1" scaleY="1">
+        <Property name="PrefabSwap" value="true" />
+        <TileObjectComponent tmx-object-id="33" tmx-object-name="Cristal" tmx-object-type="Prefab" tmx-object-x="410" tmx-object-y="578" tmx-object-width="64" tmx-object-height="64" tmx-object-rotation="0" tmx-tile-flip-horizontal="false" tmx-tile-flip-vertical="false" width="1" height="1" />
+        <GameObject name="TileObject" x="0.5" y="0.5" scaleX="1" scaleY="1">
+          <PolygonCollider2D offsetX="-0.5" offsetY="0.5">
+            <Path>0,0 1,0 1,-1 0,-1</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0023" sortingLayerName="" sortingOrder="10" x="-0.5" y="0.5" />
+        </GameObject>
+      </GameObject>
+    </GameObject>
+  </Prefab>
+  <ImportMesh filename="mapa_RA15671175_RA2_15674591_01.obj">IyBXYXZlZnJvbnQgT0JKIGZpbGUgYXV0b21hdGljYWxseSBnZW5lcmF0ZWQgYnkgVGlsZWQyVW5pdHkNCg0KIyBWZXJ0aWNlcyAoQ291bnQgPSA4OCkNCnYgLTExIC0zIDANCnYgLTEyIC0zIDANCnYgLTEyIC0yIDANCnYgLTExIC0yIDANCnYgLTEzIC0zIDANCnYgLTEzIC0yIDANCnYgLTE0IC0zIDANCnYgLTE0IC0yIDANCnYgLTE1IC0zIDANCnYgLTE1IC0yIDANCnYgLTExIC00IDANCnYgLTEyIC00IDANCnYgLTEzIC00IDANCnYgLTE0IC00IDANCnYgLTE1IC00IDANCnYgLTExIC01IDANCnYgLTEyIC01IDANCnYgLTEzIC01IDANCnYgLTE0IC01IDANCnYgLTE1IC01IDANCnYgMCAtOCAwDQp2IC0xIC04IDANCnYgLTEgLTcgMA0KdiAwIC03IDANCnYgLTIgLTggMA0KdiAtMiAtNyAwDQp2IC0zIC04IDANCnYgLTQgLTggMA0KdiAtNCAtNyAwDQp2IC0zIC03IDANCnYgLTUgLTggMA0KdiAtNSAtNyAwDQp2IC02IC04IDANCnYgLTYgLTcgMA0KdiAtNyAtOCAwDQp2IC04IC04IDANCnYgLTggLTcgMA0KdiAtNyAtNyAwDQp2IC05IC04IDANCnYgLTkgLTcgMA0KdiAtMTAgLTggMA0KdiAtMTAgLTcgMA0KdiAtMTEgLTggMA0KdiAtMTIgLTggMA0KdiAtMTIgLTcgMA0KdiAtMTEgLTcgMA0KdiAtMTMgLTggMA0KdiAtMTMgLTcgMA0KdiAtMTQgLTggMA0KdiAtMTQgLTcgMA0KdiAtMTUgLTggMA0KdiAtMTUgLTcgMA0KdiAwIC05IDANCnYgLTEgLTkgMA0KdiAtMiAtOSAwDQp2IC0zIC05IDANCnYgLTQgLTkgMA0KdiAtNSAtOSAwDQp2IC02IC05IDANCnYgLTcgLTkgMA0KdiAtOCAtOSAwDQp2IC05IC05IDANCnYgLTEwIC05IDANCnYgLTExIC05IDANCnYgLTEyIC05IDANCnYgLTEzIC05IDANCnYgLTE0IC05IDANCnYgLTE1IC05IDANCnYgMCAtMTAgMA0KdiAtMSAtMTAgMA0KdiAtMiAtMTAgMA0KdiAtMyAtMTAgMA0KdiAtNCAtMTAgMA0KdiAtNSAtMTAgMA0KdiAtNiAtMTAgMA0KdiAtNyAtMTAgMA0KdiAtOCAtMTAgMA0KdiAtOSAtMTAgMA0KdiAtMTAgLTEwIDANCnYgLTExIC0xMCAwDQp2IC0xMiAtMTAgMA0KdiAtMTMgLTEwIDANCnYgLTE0IC0xMCAwDQp2IC0xNSAtMTAgMA0KdiAwIC0xIDANCnYgLTEgLTEgMA0KdiAtMSAwIDANCnYgMCAwIDANCg0KIyBUZXh0dXJlIGNvb3JpZGluYXRlcyAoQ291bnQgPSA1NikNCnZ0IDAuMDAwMTIyMDcwMyAwLjgwMDEyMjENCnZ0IDAuMTk5ODc3OSAwLjgwMDEyMjENCnZ0IDAuMTk5ODc3OSAwLjk5OTg3NzkNCnZ0IDAuMDAwMTIyMDcwMyAwLjk5OTg3NzkNCnZ0IDAuMjAwMTIyMSAwLjgwMDEyMjENCnZ0IDAuMzk5ODc3OSAwLjgwMDEyMjENCnZ0IDAuMzk5ODc3OSAwLjk5OTg3NzkNCnZ0IDAuMjAwMTIyMSAwLjk5OTg3NzkNCnZ0IDAuMDAwMTIyMDcwMyAwLjYwMDEyMjENCnZ0IDAuMTk5ODc3OSAwLjYwMDEyMjENCnZ0IDAuMTk5ODc3OSAwLjc5OTg3NzkNCnZ0IDAuMDAwMTIyMDcwMyAwLjc5OTg3NzkNCnZ0IDAuMjAwMTIyMSAwLjYwMDEyMjENCnZ0IDAuMzk5ODc3OSAwLjYwMDEyMjENCnZ0IDAuMzk5ODc3OSAwLjc5OTg3NzkNCnZ0IDAuMjAwMTIyMSAwLjc5OTg3NzkNCnZ0IDAuMDAwMTIyMDcwMyAwLjQwMDEyMg0KdnQgMC4xOTk4Nzc5IDAuNDAwMTIyDQp2dCAwLjE5OTg3NzkgMC41OTk4NzgNCnZ0IDAuMDAwMTIyMDcwMyAwLjU5OTg3OA0KdnQgMC4yMDAxMjIxIDAuNDAwMTIyDQp2dCAwLjM5OTg3NzkgMC40MDAxMjINCnZ0IDAuMzk5ODc3OSAwLjU5OTg3OA0KdnQgMC4yMDAxMjIxIDAuNTk5ODc4DQp2dCAwLjQwMDEyMjEgMC44MDAxMjIxDQp2dCAwLjU5OTg3OCAwLjgwMDEyMjENCnZ0IDAuNTk5ODc4IDAuOTk5ODc3OQ0KdnQgMC40MDAxMjIxIDAuOTk5ODc3OQ0KdnQgMC44MDAxMjIxIDAuODAwMTIyMQ0KdnQgMC45OTk4Nzc5IDAuODAwMTIyMQ0KdnQgMC45OTk4Nzc5IDAuOTk5ODc3OQ0KdnQgMC44MDAxMjIxIDAuOTk5ODc3OQ0KdnQgMC42MDAxMjIxIDAuODAwMTIyMQ0KdnQgMC43OTk4Nzc5IDAuODAwMTIyMQ0KdnQgMC43OTk4Nzc5IDAuOTk5ODc3OQ0KdnQgMC42MDAxMjIxIDAuOTk5ODc3OQ0KdnQgMC40MDAxMjIxIDAuMjAwMTIyMQ0KdnQgMC41OTk4NzggMC4yMDAxMjIxDQp2dCAwLjU5OTg3OCAwLjM5OTg3NzkNCnZ0IDAuNDAwMTIyMSAwLjM5OTg3NzkNCnZ0IDAuMDAwMTIyMDcwMyAwLjAwMDEyMjA3MDMNCnZ0IDAuMTk5ODc3OSAwLjAwMDEyMjA3MDMNCnZ0IDAuMTk5ODc3OSAwLjE5OTg3NzkNCnZ0IDAuMDAwMTIyMDcwMyAwLjE5OTg3NzkNCnZ0IDAuMjAwMTIyMSAwLjIwMDEyMjENCnZ0IDAuMzk5ODc3OSAwLjIwMDEyMjENCnZ0IDAuMzk5ODc3OSAwLjM5OTg3NzkNCnZ0IDAuMjAwMTIyMSAwLjM5OTg3NzkNCnZ0IDAuNjAwMTIyMSAwLjQwMDEyMg0KdnQgMC43OTk4Nzc5IDAuNDAwMTIyDQp2dCAwLjc5OTg3NzkgMC41OTk4NzgNCnZ0IDAuNjAwMTIyMSAwLjU5OTg3OA0KdnQgMC40MDAxMjIxIDAuMDAwMTIyMDcwMw0KdnQgMC41OTk4NzggMC4wMDAxMjIwNzAzDQp2dCAwLjU5OTg3OCAwLjE5OTg3NzkNCnZ0IDAuNDAwMTIyMSAwLjE5OTg3NzkNCg0KIyBOb3JtYWwNCnZuIDAgMCAtMQ0KDQojIEdyb3VwcyAoQ291bnQgPSA2KQ0KCmcgbWVzaF8wMDAxCmYgMS8xLzEgMi8yLzEgMy8zLzEgNC80LzEKZiAyLzUvMSA1LzYvMSA2LzcvMSAzLzgvMQpmIDUvNS8xIDcvNi8xIDgvNy8xIDYvOC8xCmYgNy81LzEgOS82LzEgMTAvNy8xIDgvOC8xCmYgMTEvOS8xIDEyLzEwLzEgMi8xMS8xIDEvMTIvMQpmIDEyLzEzLzEgMTMvMTQvMSA1LzE1LzEgMi8xNi8xCmYgMTMvMTMvMSAxNC8xNC8xIDcvMTUvMSA1LzE2LzEKZiAxNC8xMy8xIDE1LzE0LzEgOS8xNS8xIDcvMTYvMQpmIDE2LzE3LzEgMTcvMTgvMSAxMi8xOS8xIDExLzIwLzEKZiAxNy8yMS8xIDE4LzIyLzEgMTMvMjMvMSAxMi8yNC8xCmYgMTgvMjEvMSAxOS8yMi8xIDE0LzIzLzEgMTMvMjQvMQpmIDE5LzIxLzEgMjAvMjIvMSAxNS8yMy8xIDE0LzI0LzEKZiAyMS81LzEgMjIvNi8xIDIzLzcvMSAyNC84LzEKZiAyMi8yNS8xIDI1LzI2LzEgMjYvMjcvMSAyMy8yOC8xCmYgMjcvMS8xIDI4LzIvMSAyOS8zLzEgMzAvNC8xCmYgMjgvNS8xIDMxLzYvMSAzMi83LzEgMjkvOC8xCmYgMzEvMjUvMSAzMy8yNi8xIDM0LzI3LzEgMzIvMjgvMQpmIDM1LzEvMSAzNi8yLzEgMzcvMy8xIDM4LzQvMQpmIDM2LzUvMSAzOS82LzEgNDAvNy8xIDM3LzgvMQpmIDM5LzI1LzEgNDEvMjYvMSA0Mi8yNy8xIDQwLzI4LzEKZiA0My8xLzEgNDQvMi8xIDQ1LzMvMSA0Ni80LzEKZiA0NC81LzEgNDcvNi8xIDQ4LzcvMSA0NS84LzEKZiA0Ny81LzEgNDkvNi8xIDUwLzcvMSA0OC84LzEKZiA0OS81LzEgNTEvNi8xIDUyLzcvMSA1MC84LzEKZiA1My8xMy8xIDU0LzE0LzEgMjIvMTUvMSAyMS8xNi8xCmYgNTQvMjkvMSA1NS8zMC8xIDI1LzMxLzEgMjIvMzIvMQpmIDU1LzUvMSA1Ni82LzEgMjcvNy8xIDI1LzgvMQpmIDU2LzMzLzEgNTcvMzQvMSAyOC8zNS8xIDI3LzM2LzEKZiA1Ny8xMy8xIDU4LzE0LzEgMzEvMTUvMSAyOC8xNi8xCmYgNTgvMjkvMSA1OS8zMC8xIDMzLzMxLzEgMzEvMzIvMQpmIDU5LzUvMSA2MC82LzEgMzUvNy8xIDMzLzgvMQpmIDYwLzMzLzEgNjEvMzQvMSAzNi8zNS8xIDM1LzM2LzEKZiA2MS8xMy8xIDYyLzE0LzEgMzkvMTUvMSAzNi8xNi8xCmYgNjIvMjkvMSA2My8zMC8xIDQxLzMxLzEgMzkvMzIvMQpmIDYzLzUvMSA2NC82LzEgNDMvNy8xIDQxLzgvMQpmIDY0LzMzLzEgNjUvMzQvMSA0NC8zNS8xIDQzLzM2LzEKZiA2NS8xMy8xIDY2LzE0LzEgNDcvMTUvMSA0NC8xNi8xCmYgNjYvMTMvMSA2Ny8xNC8xIDQ5LzE1LzEgNDcvMTYvMQpmIDY3LzEzLzEgNjgvMTQvMSA1MS8xNS8xIDQ5LzE2LzEKZiA2OS8xMy8xIDcwLzE0LzEgNTQvMTUvMSA1My8xNi8xCmYgNzAvMTMvMSA3MS8xNC8xIDU1LzE1LzEgNTQvMTYvMQpmIDcxLzEzLzEgNzIvMTQvMSA1Ni8xNS8xIDU1LzE2LzEKZiA3Mi8xMy8xIDczLzE0LzEgNTcvMTUvMSA1Ni8xNi8xCmYgNzMvMTMvMSA3NC8xNC8xIDU4LzE1LzEgNTcvMTYvMQpmIDc0LzEzLzEgNzUvMTQvMSA1OS8xNS8xIDU4LzE2LzEKZiA3NS8xMy8xIDc2LzE0LzEgNjAvMTUvMSA1OS8xNi8xCmYgNzYvMTMvMSA3Ny8xNC8xIDYxLzE1LzEgNjAvMTYvMQpmIDc3LzEzLzEgNzgvMTQvMSA2Mi8xNS8xIDYxLzE2LzEKZiA3OC8xMy8xIDc5LzE0LzEgNjMvMTUvMSA2Mi8xNi8xCmYgNzkvMTMvMSA4MC8xNC8xIDY0LzE1LzEgNjMvMTYvMQpmIDgwLzEzLzEgODEvMTQvMSA2NS8xNS8xIDY0LzE2LzEKZiA4MS8xMy8xIDgyLzE0LzEgNjYvMTUvMSA2NS8xNi8xCmYgODIvMTMvMSA4My8xNC8xIDY3LzE1LzEgNjYvMTYvMQpmIDgzLzEzLzEgODQvMTQvMSA2OC8xNS8xIDY3LzE2LzEKCmcgbWVzaF90aWxlXzAwMTgKZiA4NS8zNy8xIDg2LzM4LzEgODcvMzkvMSA4OC80MC8xCgpnIG1lc2hfdGlsZV8wMDIxCmYgODUvNDEvMSA4Ni80Mi8xIDg3LzQzLzEgODgvNDQvMQoKZyBtZXNoX3RpbGVfMDAxNwpmIDg1LzQ1LzEgODYvNDYvMSA4Ny80Ny8xIDg4LzQ4LzEKCmcgbWVzaF90aWxlXzAwMTQKZiA4NS80OS8xIDg2LzUwLzEgODcvNTEvMSA4OC81Mi8xCgpnIG1lc2hfdGlsZV8wMDIzCmYgODUvNTMvMSA4Ni81NC8xIDg3LzU1LzEgODgvNTYvMQoNCg==</ImportMesh>
+  <ImportTexture filename="tileset.png">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</ImportTexture>
+</Tiled2Unity>

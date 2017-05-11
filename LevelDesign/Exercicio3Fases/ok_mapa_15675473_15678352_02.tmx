@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="15" height="10" tilewidth="64" tileheight="64" nextobjectid="44">
+ <tileset firstgid="1" source="TilesetSimples/tileset.tsx"/>
+ <objectgroup name="Objetos" offsetx="0" offsety="-32">
+  <properties>
+   <property name="unity:layer" value="Objetos"/>
+  </properties>
+  <object id="4" name="Porta" type="Prefab" gid="17" x="830" y="254" width="64" height="64">
+   <properties>
+    <property name="PrefabSwap" value=""/>
+   </properties>
+  </object>
+  <object id="5" name="Chave" type="Prefab" gid="18" x="165" y="523" width="64" height="64">
+   <properties>
+    <property name="PrefabSwap" value=""/>
+   </properties>
+  </object>
+  <object id="7" name="Bloco" type="Prefab" gid="21" x="62" y="499" width="64" height="64">
+   <properties>
+    <property name="PrefabSwap" value=""/>
+   </properties>
+  </object>
+  <object id="8" name="Cristal" type="Prefab" gid="23" x="424" y="513" width="64" height="64">
+   <properties>
+    <property name="PrefabSwap" value=""/>
+   </properties>
+  </object>
+  <object id="9" name="Bloco" type="Prefab" gid="21" x="722" y="376" width="64" height="64">
+   <properties>
+    <property name="PrefabSwap" value=""/>
+   </properties>
+  </object>
+  <object id="11" name="Bloco" type="Prefab" gid="21" x="649" y="453" width="64" height="64">
+   <properties>
+    <property name="PrefabSwap" value=""/>
+   </properties>
+  </object>
+  <object id="10" name="Espinho" type="Prefab" gid="14" x="291" y="512" width="64" height="64">
+   <properties>
+    <property name="PrefabSwap" value=""/>
+    <property name="unity:layer" value="Morte"/>
+   </properties>
+  </object>
+  <object id="13" name="Fronteira" x="-65" y="-288" width="64" height="929"/>
+  <object id="14" name="Fronteira" x="0" y="-320" width="960" height="64"/>
+  <object id="15" name="Fronteira" x="960" y="-288" width="64" height="928"/>
+  <object id="29" name="Placa" type="Prefab" gid="15" x="247" y="192" width="64" height="64">
+   <properties>
+    <property name="PrefabSwap" value=""/>
+    <property name="msg" value="Vamos jogar!"/>
+   </properties>
+  </object>
+  <object id="30" name="Espinho" type="Prefab" gid="14" x="222" y="514" width="64" height="64">
+   <properties>
+    <property name="PrefabSwap" value=""/>
+    <property name="unity:layer" value="Morte"/>
+   </properties>
+  </object>
+  <object id="31" name="Espinho" type="Prefab" gid="14" x="354" y="513" width="64" height="64">
+   <properties>
+    <property name="PrefabSwap" value=""/>
+    <property name="unity:layer" value="Morte"/>
+   </properties>
+  </object>
+  <object id="40" name="Jogador" gid="24" x="116" y="192" width="64" height="64">
+   <properties>
+    <property name="PrefabSwap" value=""/>
+   </properties>
+  </object>
+  <object id="42" name="Bloco" type="Prefab" gid="21" x="-2" y="396" width="64" height="64">
+   <properties>
+    <property name="PrefabSwap" value=""/>
+   </properties>
+  </object>
+  <object id="43" name="Bloco" type="Prefab" gid="21" x="47" y="288" width="64" height="64">
+   <properties>
+    <property name="PrefabSwap" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="Chao" width="15" height="10">
+  <properties>
+   <property name="unity:layer" value="Solido"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,1,2,2,2,2,3,0,0,0,0,0,0,0,0,
+0,6,7,7,7,7,5,2,3,0,0,0,1,2,3,
+0,11,12,12,12,12,12,9,5,3,0,0,6,7,8,
+0,0,0,0,0,0,0,11,12,13,0,0,6,7,8,
+0,0,0,0,0,0,0,0,0,0,0,0,6,7,8,
+0,0,1,2,2,2,2,2,2,2,2,2,4,7,8,
+0,0,6,7,7,7,7,7,7,7,7,7,7,7,8,
+0,0,11,12,12,12,12,12,12,12,12,12,12,12,13
+</data>
+ </layer>
+ <objectgroup name="Morte">
+  <object id="33" name="Morte" x="-33" y="594" width="1064" height="34">
+   <properties>
+    <property name="unity:isTrigger" value="true"/>
+    <property name="unity:layer" value="Morte"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

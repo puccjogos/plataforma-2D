@@ -1,0 +1,8 @@
+Level Design
+
+Matheus Almeida Assis   15675473
+Matheus Alves Astolfo   15678352
+
+Fase 1 - planejada para o jogador explorar todo level de maneira simples intuitiva.
+Fase 2 - o desafio principal é identificar as primeiras ações de direcionamento do jogador que pode afetar na sua perseguição durante o level.
+Fase 3 - planejada para o jogador tomar atitudes precisas e lineares (envolvendo principalmente sua habilidade), forçando pensar como deve se guiar para realizar corretamente sem erro.

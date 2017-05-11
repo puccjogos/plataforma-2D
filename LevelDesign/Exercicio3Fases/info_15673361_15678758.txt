@@ -1,0 +1,28 @@
+
+------------------------------------------------------
+
+Nome dos Integrantes:
+
+Francisco Silva Bueno Junior
+
+Tulio Juliel de Souza Pulgrossi
+
+------------------------------------------------------
+
+Objetivos por fase:
+
+Fase 1 - Apresentar as mecanicas de interação dos objetos (Blocos, Espinhos,Cristal e Chave) para o jogador.
+Ambientar de uma forma simples as coisas que ocorrem devido sua interação com os objetos presentes no cenário.
+
+Fase 2 - Apresentar um novo objeto de interação, no caso a utilização do "Caminho" para o jogador. 
+Além de estar presente outros objetos já vistos na fase 1.
+
+Fase 3 - Explorar o objeto "Espinho" limitando a movimentação do jogador, dando maior enfase em seu movimento "Pulo".
+
+Obs:
+
+Nosso maior foco foi trabalhar em cima de blocos e espinhos. 
+Foi possivel elaborar os cenários dando enfase no pulo do personagem.
+
+------------------------------------------------------
+

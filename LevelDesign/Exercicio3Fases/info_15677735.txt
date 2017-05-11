@@ -1,0 +1,25 @@
+﻿Sobre o level design: Lucas Santos - 15677735
+
+
+Conceito abstrato
+
+
+O protagonista está em um sonho, tentando descobrir uma verdade que apenas seu subconsciente conhece. Ele deve se sentir em um espaço desconectado da realidade, um ambiente etéreo.
+
+Fase 1 
+
+
+É importante que essa primeira fase defina com consistência as mecânicas básicas, e o sentimento do jogo. 
+Para dar a característica que estou propondo, vou fazer todos os elementos bastante espaçados - para quebrar com a ideia de aproveitamento do espaço que estamos acostumados no mundo real.
+Em seu livro An Architectural Approach to level Design, Christopher W. Totten escreve sobre um estilo de arquitetura egípcia: “These temples also utilized hypostyle halls, spaces with a dense grid of columns holding up a stone roof. Experientially, these halls created the feeling of a vast expanse with dim lighting to make the room feel ethereal.”. Com esse conceito em mente, tentei criar um espaço com geometrias iguais que se repetem em intervalos curtos e constantes para tentar criar um efeito similar.
+
+Fase 2
+
+
+Nessa segunda fase, mantenho o efeito de desconexão com o mundo, mas agora adicionando verticalidade gradual, para dar a ideia de ascensão. Também há uma queda grande para ensinar ao jogador que não há morte em grandes quedas, aumentando o senso de não realidade.
+
+
+Fase 3
+
+
+A terceira fase é a última dessa introdução do setting do jogo. Uma fase completamente vertical e focada nos blocos, para deixar claro ao jogador que ele está subindo ao longo de sua jornada.

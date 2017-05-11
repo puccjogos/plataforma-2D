@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="15" height="10" tilewidth="64" tileheight="64" nextobjectid="174">
+ <tileset firstgid="1" source="TilesetSimples/tileset.tsx"/>
+ <layer name="Chao" width="15" height="10">
+  <properties>
+   <property name="unity:layer" value="Solido"/>
+  </properties>
+  <data encoding="csv">
+7,7,7,7,7,8,6,7,7,7,7,7,7,7,5,
+12,12,12,12,12,13,11,12,12,12,12,12,12,9,7,
+0,0,0,0,0,0,0,0,0,0,0,0,0,6,7,
+2,3,1,2,3,0,0,0,0,0,0,0,0,11,12,
+7,8,11,12,13,0,0,0,0,1,2,2,2,3,0,
+12,13,0,0,0,0,0,0,0,11,12,12,12,13,0,
+0,0,0,0,1,2,3,0,0,0,0,0,0,0,0,
+0,0,0,0,11,12,13,0,0,0,0,0,0,0,0,
+2,3,0,0,0,0,0,0,0,0,0,1,2,3,0,
+7,8,0,0,0,0,0,0,0,0,0,6,7,8,0
+</data>
+ </layer>
+ <objectgroup name="Objetos" offsetx="0" offsety="-32">
+  <properties>
+   <property name="unity:layer" value="Objetos"/>
+  </properties>
+  <object id="13" name="Fronteira" x="-65" y="-288" width="64" height="929"/>
+  <object id="14" name="Fronteira" x="0" y="-320" width="960" height="64"/>
+  <object id="15" name="Fronteira" x="960" y="-288" width="64" height="928"/>
+  <object id="63" name="Porta" type="prefab" gid="17" x="765" y="570" width="64" height="64"/>
+  <object id="65" name="Cristal" type="prefab" gid="23" x="356" y="153" width="64" height="64"/>
+  <object id="83" name="Chave" type="prefab" gid="18" x="2" y="253" width="64" height="64"/>
+  <object id="101" name="Espinho" type="prefab" gid="14" x="863.917" y="671" width="64" height="64"/>
+  <object id="105" name="Bloco" type="prefab" gid="22" x="128" y="577" width="64" height="64"/>
+  <object id="109" name="Bloco" type="prefab" gid="21" x="638" y="641" width="64" height="64"/>
+  <object id="110" name="Bloco" type="prefab" gid="21" x="383" y="644" width="64" height="64"/>
+  <object id="120" name="Bloco" type="prefab" gid="22" x="601" y="642" width="64" height="64"/>
+  <object id="127" name="Bloco" type="prefab" gid="22" x="421" y="644" width="64" height="64"/>
+  <object id="131" name="Bloco" type="prefab" gid="21" x="457" y="645" width="64" height="64"/>
+  <object id="132" name="Bloco" type="prefab" gid="21" x="263" y="644" width="64" height="64"/>
+  <object id="141" name="Bloco" type="prefab" gid="21" x="226" y="645" width="64" height="64"/>
+  <object id="142" name="Bloco" type="prefab" gid="21" x="190" y="643" width="64" height="64"/>
+  <object id="143" name="Bloco" type="prefab" gid="21" x="448" y="449" width="64" height="64"/>
+  <object id="149" name="Bloco" type="prefab" gid="22" x="485" y="450" width="64" height="64"/>
+  <object id="153" name="Caminho" x="130" y="258">
+   <polyline points="0,0 384,0 383,60 1,63 0,0"/>
+  </object>
+  <object id="154" name="Jogador" gid="24" x="10" y="575" width="64" height="64">
+   <properties>
+    <property name="PrefabSwap" value=""/>
+   </properties>
+  </object>
+  <object id="155" name="Espinho" type="prefab" gid="14" x="928" y="670.917" width="64" height="64"/>
+  <object id="156" name="Espinho" type="prefab" gid="14" x="670.667" y="672.334" width="64" height="64"/>
+  <object id="157" name="Espinho" type="prefab" gid="14" x="607.084" y="672.167" width="64" height="64"/>
+  <object id="158" name="Espinho" type="prefab" gid="14" x="543.5" y="672.25" width="64" height="64"/>
+  <object id="159" name="Espinho" type="prefab" gid="14" x="479.917" y="672.333" width="64" height="64"/>
+  <object id="164" name="Espinho" type="prefab" gid="14" x="225.375" y="672.332" width="64" height="64"/>
+  <object id="165" name="Espinho" type="prefab" gid="14" x="288.958" y="672.25" width="64" height="64"/>
+  <object id="166" name="Espinho" type="prefab" gid="14" x="416.125" y="672.333" width="64" height="64"/>
+  <object id="167" name="Espinho" type="prefab" gid="14" x="352.542" y="672.167" width="64" height="64"/>
+  <object id="172" name="Espinho" type="prefab" gid="14" x="97.2495" y="672.25" width="64" height="64"/>
+  <object id="173" name="Espinho" type="prefab" gid="14" x="161.334" y="672.168" width="64" height="64"/>
+ </objectgroup>
+</map>

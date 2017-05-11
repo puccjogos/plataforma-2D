@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="15" height="10" tilewidth="64" tileheight="64" nextobjectid="103">
+ <tileset firstgid="1" source="TilesetSimples/tileset.tsx"/>
+ <layer name="Chao" width="15" height="10">
+  <properties>
+   <property name="unity:layer" value="Solido"/>
+  </properties>
+  <data encoding="csv">
+2,2,2,2,2,2,2,2,3,0,0,0,0,0,0,
+12,12,12,12,12,12,9,7,8,0,0,0,0,1,2,
+2,2,2,2,2,3,6,7,5,2,3,1,2,4,7,
+10,12,9,10,12,13,11,12,12,12,13,11,12,12,9,
+8,0,6,8,0,0,0,0,0,0,0,0,1,2,4,
+5,2,4,5,3,1,3,0,0,0,0,0,6,10,12,
+10,12,12,9,8,11,13,0,0,0,0,1,4,8,0,
+8,0,0,11,13,0,0,0,0,0,0,11,9,5,3,
+5,3,1,2,2,3,0,0,0,0,0,0,6,7,8,
+7,5,4,10,9,5,2,2,2,2,2,2,4,7,8
+</data>
+ </layer>
+ <objectgroup name="Objetos" offsetx="0" offsety="-32">
+  <properties>
+   <property name="unity:layer" value="Objetos"/>
+  </properties>
+  <object id="4" name="Porta" type="Prefab" gid="17" x="899.333" y="128" width="64" height="64"/>
+  <object id="5" name="Chave" type="Prefab" gid="18" x="737.167" y="445.5" width="64" height="64"/>
+  <object id="8" name="Cristal" type="Prefab" gid="23" x="99" y="517" width="64" height="64"/>
+  <object id="13" name="Fronteira" x="-65" y="-288" width="64" height="929"/>
+  <object id="14" name="Fronteira" x="0" y="-320" width="960" height="64"/>
+  <object id="15" name="Fronteira" x="960" y="-288" width="64" height="928"/>
+  <object id="29" name="Placa" type="Prefab" gid="15" x="348.667" y="385" width="64" height="64">
+   <properties>
+    <property name="msg" value="Parece que há uma saída"/>
+   </properties>
+  </object>
+  <object id="43" name="Bloco" type="Prefab" gid="21" x="399.5" y="576" width="64" height="64"/>
+  <object id="59" name="Placa" type="Prefab" gid="15" x="869" y="512" width="64" height="64">
+   <properties>
+    <property name="msg" value="Você não deveria estar aqui"/>
+   </properties>
+  </object>
+  <object id="60" name="Placa" type="Prefab" gid="15" x="62" y="193" width="64" height="64">
+   <properties>
+    <property name="msg" value="Você sente seus pés afundando"/>
+   </properties>
+  </object>
+  <object id="61" name="Espinho" type="Prefab" gid="14" x="504.5" y="253" width="64" height="64" rotation="180">
+   <properties>
+    <property name="unity:layer" value="Morte"/>
+   </properties>
+  </object>
+  <object id="68" name="Dead" gid="25" x="22" y="401" width="64" height="64"/>
+  <object id="70" name="Dead" gid="25" x="71" y="376" width="64" height="64" rotation="45"/>
+  <object id="71" name="Dead" gid="25" x="153" y="369" width="64" height="64" rotation="-45"/>
+  <object id="72" name="Dead" gid="25" x="43" y="385" width="64" height="64" rotation="30"/>
+  <object id="73" name="Dead" gid="25" x="13" y="298" width="64" height="64" rotation="90"/>
+  <object id="74" name="Dead" gid="25" x="28.5587" y="279.435" width="64" height="64" rotation="60"/>
+  <object id="75" name="Dead" gid="25" x="52" y="370" width="64" height="64"/>
+  <object id="76" name="Dead" gid="25" x="84" y="349" width="64" height="64"/>
+  <object id="77" name="Dead" gid="25" x="15" y="345" width="64" height="64"/>
+  <object id="78" name="Dead" gid="25" x="56" y="326" width="64" height="64" rotation="45"/>
+  <object id="79" name="Dead" gid="25" x="100" y="345" width="64" height="64" rotation="60"/>
+  <object id="81" name="Espinho" type="Prefab" gid="14" x="322" y="249" width="64" height="64" rotation="180">
+   <properties>
+    <property name="unity:layer" value="Morte"/>
+   </properties>
+  </object>
+  <object id="82" name="Espinho" type="Prefab" gid="14" x="569" y="252" width="64" height="64" rotation="180">
+   <properties>
+    <property name="unity:layer" value="Morte"/>
+   </properties>
+  </object>
+  <object id="84" name="Espinho" type="Prefab" gid="14" x="369" y="640" width="64" height="64">
+   <properties>
+    <property name="unity:layer" value="Morte"/>
+   </properties>
+  </object>
+  <object id="86" name="Espinho" type="Prefab" gid="14" x="439" y="642" width="64" height="64">
+   <properties>
+    <property name="unity:layer" value="Morte"/>
+   </properties>
+  </object>
+  <object id="87" name="Espinho" type="Prefab" gid="14" x="510" y="640" width="64" height="64">
+   <properties>
+    <property name="unity:layer" value="Morte"/>
+   </properties>
+  </object>
+  <object id="88" name="Espinho" type="Prefab" gid="14" x="583" y="643" width="64" height="64">
+   <properties>
+    <property name="unity:layer" value="Morte"/>
+   </properties>
+  </object>
+  <object id="89" name="Espinho" type="Prefab" gid="14" x="659" y="642" width="64" height="64">
+   <properties>
+    <property name="unity:layer" value="Morte"/>
+   </properties>
+  </object>
+  <object id="90" name="Espinho" type="Prefab" gid="14" x="728" y="642" width="64" height="64">
+   <properties>
+    <property name="unity:layer" value="Morte"/>
+   </properties>
+  </object>
+  <object id="91" name="Espinho" type="Prefab" gid="14" x="97" y="643" width="64" height="64">
+   <properties>
+    <property name="unity:layer" value="Morte"/>
+   </properties>
+  </object>
+  <object id="92" name="Espinho" type="Prefab" gid="14" x="223" y="306" width="64" height="64" rotation="90">
+   <properties>
+    <property name="unity:layer" value="Morte"/>
+   </properties>
+  </object>
+  <object id="93" name="Bloco" type="Prefab" gid="21" x="497" y="575.5" width="64" height="64"/>
+  <object id="94" name="Bloco" type="Prefab" gid="21" x="591.5" y="576" width="64" height="64"/>
+  <object id="95" name="Bloco" type="Prefab" gid="21" x="625" y="474.5" width="64" height="64"/>
+  <object id="97" name="Bloco" type="Prefab" gid="21" x="675" y="366.5" width="64" height="64"/>
+  <object id="99" name="Placa" type="Prefab" gid="15" x="865" y="321" width="64" height="64">
+   <properties>
+    <property name="msg" value="O que você ainda está fazendo aqui?"/>
+   </properties>
+  </object>
+  <object id="100" name="Trapped" gid="20" x="225" y="698" width="64" height="64"/>
+  <object id="101" name="Jogador" type="Prefab" gid="24" x="-9" y="191" width="64" height="64"/>
+ </objectgroup>
+</map>

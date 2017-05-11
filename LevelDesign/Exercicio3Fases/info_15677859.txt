@@ -1,0 +1,6 @@
+﻿Lucas Linarelo 15677859        
+
+
+Fase 01 - Objetivo de mostrar a mecânica de ativar os pisos.
+Fase 02 - Desenvolver raciocínio.
+Fase 03 - Por em prática a lógica com mecânicas para passar de fase.

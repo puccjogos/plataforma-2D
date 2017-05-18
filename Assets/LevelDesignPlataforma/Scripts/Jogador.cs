@@ -158,7 +158,7 @@ public class Jogador : MonoBehaviour
         {
             vivo = false;
             Debug.Log("GAME OVER");
-            GameManager.i.SendMessage("Reload", SendMessageOptions.DontRequireReceiver);
+            GameManager.i.SendMessage("Reload");
         }
 
         if (other.gameObject.layer == LayerMask.NameToLayer("Stairs"))

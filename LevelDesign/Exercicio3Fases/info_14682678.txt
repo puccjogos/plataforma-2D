@@ -1,0 +1,19 @@
+Nome: Leonardo Tadeu Teixeira
+RA: 14682678
+
+Objetivos de cada fase
+
+mapa_14682678_1
+
+Nessa fase o objetivo fundamenta-se em ensinar as mecânicas da personagem controlada pelo jogador e as funções dos objetos 'chave' e 'cristal'.
+Não nenhum perigo que possa ferir o jogador justamente pelo motivo citado. 
+
+mapa_14682678_2
+
+O objetivo da segunda fase é forçar o jogador a explorar a mecânica de pulo da personagem. Por exemplo, correr para ganhar inercia e pular mais longe e habilidade
+de controle na aterrissagem para não tocar os espinhos.
+
+mapa_14682678_3
+
+Essa fase vem para por a prova as habilidades que a fase anterior conferiu ao jogador e testar sua atenção através de uma pegadinha introduzida pela placa. 
+Caso a leia logo no inicio sem estudar o ambiente previamente, o jogador poderá cometer o equívoco de lançar-se atrás da chave antes de ativar o cristal. Um erro fatal.  

@@ -10,7 +10,7 @@ public class Porta: MonoBehaviour
     {
         if (aberta && other.CompareTag("Player"))
         {
-            GameManager.i.SendMessage("NextLevel");
+            GameManager.i.SendMessage("ChangeLevel", 1);
         }
     }
 

@@ -20,9 +20,8 @@ public class ImportadorDeObjetos : Tiled2Unity.ICustomTiledImporter
 
         if (customProperties.ContainsKey("PrefabSwap"))
         {
-            
             GameObject prefab = Resources.Load<GameObject>(gameObject.name);
-            GameObject go = (GameObject)GameObject.Instantiate(prefab, gameObject.transform.position + new Vector3(0.5f, 0.5f), Quaternion.identity);
+            GameObject go = (GameObject)GameObject.Instantiate(prefab, gameObject.transform.position + new Vector3(0.5f, 0.5f), gameObject.transform.rotation);
             go.transform.SetParent(gameObject.transform.parent);
             if (gameObject.name == "Placa")
             {

@@ -6,4 +6,32 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/LevelDesignPlataforma/Exemplo.unity
+    path: Assets/Seq01.unity
+  - enabled: 1
+    path: Assets/Seq02.unity
+  - enabled: 1
+    path: Assets/Seq03.unity
+  - enabled: 1
+    path: Assets/Seq04.unity
+  - enabled: 1
+    path: Assets/Seq05.unity
+  - enabled: 1
+    path: Assets/Seq06.unity
+  - enabled: 1
+    path: Assets/Seq07.unity
+  - enabled: 1
+    path: Assets/Seq08.unity
+  - enabled: 1
+    path: Assets/Seq09.unity
+  - enabled: 1
+    path: Assets/Seq10.unity
+  - enabled: 1
+    path: Assets/Seq11.unity
+  - enabled: 1
+    path: Assets/Seq12.unity
+  - enabled: 1
+    path: Assets/Seq13.unity
+  - enabled: 1
+    path: Assets/Seq14.unity
+  - enabled: 1
+    path: Assets/Seq15.unity

@@ -3,6 +3,7 @@ using UnityEngine.UI;
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using System.Collections;
+using System;
 
 public class GameManager : MonoBehaviour
 {
@@ -16,13 +17,21 @@ public class GameManager : MonoBehaviour
     public Transform mapaAtual;
     public Text txtMapa;
 
+    public string sequencia;
+    public List<Transform> seqMapas;
+
     void Awake()
     {
         if (i == null)
         {
             i = this;
 
-            DontDestroyOnLoad(gameObject);
+            seqMapas = new List<Transform>();
+            var array = sequencia.Split('-');
+            foreach (var item in array)
+            {
+                seqMapas.Add(mapas[Int32.Parse(item)]);
+            }
             GameManager.i.currentLevel = 0;
             Reload();
         }
@@ -56,6 +65,36 @@ public class GameManager : MonoBehaviour
             return;
         }
 
+        if (Input.GetKeyDown(KeyCode.V))
+        {
+            int atual = SceneManager.GetActiveScene().buildIndex;
+            if (atual - 1 < 0)
+            {
+                atual = SceneManager.sceneCountInBuildSettings - 1;
+            }
+            else
+            {
+                atual--;
+            }
+            SceneManager.LoadScene(atual);
+            return;
+        }
+
+        if (Input.GetKeyDown(KeyCode.B))
+        {
+            int atual = SceneManager.GetActiveScene().buildIndex;
+            if (atual + 1 == SceneManager.sceneCountInBuildSettings)
+            {
+                atual = 0;
+            }
+            else
+            {
+                atual++;
+            }
+            SceneManager.LoadScene(atual);
+            return;
+        }
+
     }
 
     void ChangeLevel(int mod)
@@ -63,13 +102,13 @@ public class GameManager : MonoBehaviour
         if (changingLvls)
             return;
         currentLevel += mod;
-        if (currentLevel == mapas.Count)
+        if (currentLevel == seqMapas.Count)
         {
             currentLevel = 0;
         }
         if (currentLevel < 0)
         {
-            currentLevel = mapas.Count - 1;
+            currentLevel = seqMapas.Count - 1;
         }
         StartCoroutine(Load());
     }
@@ -98,8 +137,8 @@ public class GameManager : MonoBehaviour
         {
             DestroyImmediate(mapaAtual.gameObject);
         }
-        mapaAtual = Instantiate<Transform>(mapas[currentLevel], Vector3.zero, Quaternion.identity, this.transform);
-        txtMapa.text = "ID: " + currentLevel.ToString() + " Nome: " + mapas[currentLevel].name + "\nZ para voltar, X para avanças, C para recarregar.";
+        mapaAtual = Instantiate<Transform>(seqMapas[currentLevel], Vector3.zero, Quaternion.identity, this.transform);
+        txtMapa.text = "SEQ: " + SceneManager.GetActiveScene().name + " : " + sequencia + "\nNome: " + seqMapas[currentLevel].name;
         changingLvls = false;
     }
 }

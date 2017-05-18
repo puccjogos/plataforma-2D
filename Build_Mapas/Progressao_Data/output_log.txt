@@ -1,0 +1,49 @@
+Initialize engine version: 5.5.2f1 (3829d7f588f3)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: AMD Mobility Radeon HD 5000 Series (ID=0x68c1)
+    Vendor:   ATI
+    VRAM:     1010 MB
+    Driver:   15.201.1151.1008
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Sinc\Repos\LevelDesign2D-Plataforma\Build\Progressao_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Sinc\Repos\LevelDesign2D-Plataforma\Build\Progressao_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Sinc\Repos\LevelDesign2D-Plataforma\Build\Progressao_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Sinc\Repos\LevelDesign2D-Plataforma\Build\Progressao_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Sinc\Repos\LevelDesign2D-Plataforma\Build\Progressao_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Sinc\Repos\LevelDesign2D-Plataforma\Build\Progressao_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Sinc\Repos\LevelDesign2D-Plataforma\Build\Progressao_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Sinc\Repos\LevelDesign2D-Plataforma\Build\Progressao_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Sinc\Repos\LevelDesign2D-Plataforma\Build\Progressao_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Sinc\Repos\LevelDesign2D-Plataforma\Build\Progressao_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.458 seconds
+Platform assembly: C:\Sinc\Repos\LevelDesign2D-Plataforma\Build\Progressao_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Sinc\Repos\LevelDesign2D-Plataforma\Build\Progressao_Data\Managed\System.dll (this message is harmless)
+<RI> Initializing input.
+<RI> Input initialized.
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initialized touch support.
+UnloadTime: 5.166192 ms
+RELOAD LVL
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+target validation failed. destroying the tween to avoid errors. Target type: UnityEngine.Transform
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+target validation failed. destroying the tween to avoid errors. Target type: UnityEngine.Transform
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GAME OVER
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+RELOAD LVL
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 534 -> priority: 1 

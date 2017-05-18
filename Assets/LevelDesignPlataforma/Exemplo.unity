@@ -395,6 +395,8 @@ MonoBehaviour:
   - {fileID: 4334577770837186, guid: e7449aacefe50c1419ab33b3fde1780d, type: 2}
   mapaAtual: {fileID: 0}
   txtMapa: {fileID: 875845292}
+  sequencia: 35-20-11-29-18-31-22
+  seqMapas: []
 --- !u!4 &1871993121
 Transform:
   m_ObjectHideFlags: 0

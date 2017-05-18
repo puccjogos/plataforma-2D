@@ -161,8 +161,7 @@ public class Jogador : MonoBehaviour
         {
             vivo = false;
             Debug.Log("GAME OVER");
-            //Analytics.CustomEvent(string customEventName, IDictionary<string, object> eventData);
-            HeatmapEvent.Send("morte_jogador", transform.position, new Dictionary<string, object>
+            Analytics.CustomEvent("morte_jogador", new Dictionary<string, object>
                 {
                     { "sequencia", SceneManager.GetActiveScene().name },
                     { "mapa", GameManager.i.mapas[GameManager.i.currentLevel].name },

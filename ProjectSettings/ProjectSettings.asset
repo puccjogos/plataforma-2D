@@ -461,8 +461,9 @@ PlayerSettings:
   XboxOneAllowedProductIds: []
   XboxOnePersistentLocalStorageSize: 0
   vrEditorSettings: {}
-  cloudServicesEnabled: {}
-  cloudProjectId: 
-  projectName: 
-  organizationId: 
+  cloudServicesEnabled:
+    UNet: 1
+  cloudProjectId: 07367a5b-9fc6-40af-a79b-52970cafa496
+  projectName: LevelDesign2D-Plataforma
+  organizationId: enricllagostera
   cloudEnabled: 0

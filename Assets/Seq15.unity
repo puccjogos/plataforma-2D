@@ -348,6 +348,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   reloadinterval: 0.05
+  currentLevel: 0
   mapas:
   - {fileID: 4195790836560134, guid: a3577b3e02c8f0546ac1e148109dc09b, type: 2}
   - {fileID: 4079628357831758, guid: 246d94a46e830784b8a3e8503a4aef7b, type: 2}

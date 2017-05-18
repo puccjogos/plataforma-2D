@@ -1,6 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine.SceneManagement;
+using UnityEngine.Analytics;
+using UnityAnalyticsHeatmap;
 
 public class Jogador : MonoBehaviour
 {
@@ -158,6 +161,14 @@ public class Jogador : MonoBehaviour
         {
             vivo = false;
             Debug.Log("GAME OVER");
+            //Analytics.CustomEvent(string customEventName, IDictionary<string, object> eventData);
+            HeatmapEvent.Send("morte_jogador", transform.position, new Dictionary<string, object>
+                {
+                    { "sequencia", SceneManager.GetActiveScene().name },
+                    { "mapa", GameManager.i.mapas[GameManager.i.currentLevel].name },
+                    { "pos_x", transform.position.x },
+                    { "pos_y", transform.position.y }
+                });
             GameManager.i.SendMessage("Reload");
         }
 

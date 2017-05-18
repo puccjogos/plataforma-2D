@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour
     public static GameManager i;
 
     public float reloadinterval = 0.1f;
-    int currentLevel;
+    public int currentLevel;
     //public string[] lvls;
     private bool changingLvls = false;
     public List<Transform> mapas;
